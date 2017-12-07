@@ -21,28 +21,3 @@
 	color: white;
 }
 
-#colorsBox {
-	border: 1px solid black;
-	margin-top: 10px;
-	width: 20%;
-	height: 300px;
-	left: 40%;
-	position: absolute; 	
-	display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-#color_picker{
-	margin: 20px;
-}
-
-#color_name{
-	font-size: 36px;
-
-}
-
-select{
-	width: 200px;
-}

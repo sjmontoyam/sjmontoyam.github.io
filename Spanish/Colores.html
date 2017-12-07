@@ -3,32 +3,27 @@
 <html>
 	<head>
 		<title>Gonna be me</title>
-		
-		<link rel="stylesheet" type="text/css" href="assets/index_style_details.css">
+		<link rel="stylesheet" type="text/css" href="assets/colors_style_details.css">
 		<link rel="icon" type="image/x-icon" href="src/index_ico.ico"> 	
-		<script src="assets/color_picker.js"></script>	
-		
+		<script src="assets/color_picker.js"></script>		
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width">
 		<meta name="description" content="Myself and my work">
 		<meta name="keywords" content="Work, JS, PHP, MySQL, HTML, CSS">
 		<meta name="author" content="Santiago Jose Montoya Mejia">
-
 	</head>
-	
-	
 	<header>
 		<div id="header" class="top">
 			<p id="title_header"><b>Colores</b></p>
 		</div>
 	</header>
-	
 	<body>
-		
-		<hr>
+		<div>
+			<hr>
+		</div>
 		<div id="color_picker">
-		
 			<select id="Picker" onchange="getColor()">
+				<option value="Default">Escoge un color</option> 
 				<option value="Amarillo">Amarillo</option> 
 				<option value="Naranja">Naranja</option>
 				<option value="Rojo">Rojo</option>
@@ -49,19 +44,36 @@
 				<option value="Indigo">Indigo</option>
 				<option value="Agua marina">Agua marina</option>
 			</select>
-			
+		</div>
+		<div>
+			<hr>
 		</div>
 		
-		<hr>
-	
-		<div id="colorsBox">
-		
-			<p id="color_name"><b></b></p>
-			
+		<div class="colorsBoxes" id="colors_container">
+			<div class="colorsBox" id="colorBox1"></div>
+			<div class="colorsBox" id="colorBox2"></div>
+			<div class="colorsBox" id="colorBox3"></div>
+			<div class="colorsBox" id="colorBox4"></div>
+			<div class="colorsBox" id="colorBox5"></div>
 		</div>
-	
-	
-	</body
+		
+		<div class="colorName">
+			<p id="color_name">NAME OF THE COLOR</p>
+		</div>
+		
+		<footer>
+			<div class="container">
+				<div class="top_container">
+				</div>
+				<div class="footer_container">
+					<div class="footer_container_break_line">
+					</div>
+					<div class="footer_container_info">
+					</div>
+				</div>		
+			</div>
+		</footer>
 
-
+	</body>
+	
 </html>
