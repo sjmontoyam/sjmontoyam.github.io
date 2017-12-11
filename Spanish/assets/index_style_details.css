@@ -11,6 +11,7 @@ a:link {
 	float: left;
 	font-size: 1.5em;
 	margin-left: 5%;
+	width: 90%;
 }
 
 .content_left:visited{
@@ -18,14 +19,16 @@ a:link {
 }
 
 .content_left:hover{
-	text-decoration: underline;
+	background-color:#f0d0c1;
+	color: black;
 }
 
 .content_right{
-	clear: both;
-	float: left;
+
+
 	font-size: 1.5em;
 	margin-left: 5%;
+
 }
 
 .content_right:visited{
@@ -35,6 +38,11 @@ a:link {
 .content_right:hover{
 	text-decoration: underline;
 }
+
+#content_right_last{
+
+}
+
 
 .container{
 	border-radius: 25px 25px 0px 0px;
@@ -89,8 +97,8 @@ footer {
 #header_menu{
 	float: right;
 	text-align: center;
-	width: 40%;
-	
+	vertical-align:center;
+	width: 40%;	
 }
 
 .menu_header_a:hover, .menu_header_a:active{
@@ -117,7 +125,6 @@ footer {
 	float: left;
 	border-radius: 25px;
 	font-family: 'Lato', sans-serif;
-	
 	background-color: #caa668;
 }
 
@@ -160,6 +167,7 @@ footer {
 	font-size: 4em;
 }
 
+
 #title_header{
 	margin-top:10px;
 	margin-left:40px;
@@ -173,7 +181,12 @@ footer {
 .title_text{
 	background-color: #FFFFFF;
 	text-align: center;
-	margin-top: 10%;
 	font-family:'Nova Mono', monospace;
 	
+}
+
+iframe{
+	margin-left: 5%;
+	width:90%;
+	height:315px;
 }
