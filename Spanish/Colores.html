@@ -13,61 +13,71 @@
 		<meta name="author" content="Santiago Jose Montoya Mejia">
 	</head>
 	<header>
-		<div id="header" class="top">
-			<p id="title_header"><b>Colores</b></p>
+		<div id = "div_header_container">
+			<div id = "header_name" class = "top">
+				<p id="title_header">COLORES</p>
+			</div>
+			<div id = "header_menu">
+				<a class = "menu_header_a" href = "#" target = "_blank">Inicio</a>
+				<a class = "menu_header_a" href = "#" target = "_blank">Enlaces</a>
+				<a class = "menu_header_a" href = "#" target = "_blank">Contacto</a>
+			</div>
 		</div>
 	</header>
 	<body>
 		<div>
 			<hr>
 		</div>
-		<div id="color_picker">
-			<select id="Picker" onchange="getColor()">
-				<option value="Default">Escoge un color</option> 
-				<option value="Amarillo">Amarillo</option> 
-				<option value="Naranja">Naranja</option>
-				<option value="Rojo">Rojo</option>
-				<option value="Morado">Morado</option>
-				<option value="Azul">Azul</option>
-				<option value="Verde">Verde</option>
-				<option value="Gris claro">Gris claro</option>
-				<option value="Gris oscuro">Gris oscuro</option>
-				<option value="Marron">Marron</option>
-				<option value="Blanco">Blanco</option>
-				<option value="Negro">Negro</option>
-				<option value="Azul claro">Azul claro</option>
-				<option value="Beige">Beige</option>
-				<option value="Dorado">Dorado</option>
-				<option value="Plateado">Plateado</option>
-				<option value="Rosado">Rosado</option>
-				<option value="Magenta">Magenta</option>
-				<option value="Indigo">Indigo</option>
-				<option value="Agua marina">Agua marina</option>
-			</select>
+		<div id = "tags_container">
+			<div id="color_picker">
+				<select id="Picker" onchange="getColor()">
+					<option value="Default">Escoge un color</option> 
+					<option value="Amarillo">Amarillo</option> 
+					<option value="Naranja">Naranja</option>
+					<option value="Rojo">Rojo</option>
+					<option value="Morado">Morado</option>
+					<option value="Azul">Azul</option>
+					<option value="Verde">Verde</option>
+					<option value="Gris claro">Gris claro</option>
+					<option value="Gris oscuro">Gris oscuro</option>
+					<option value="Marron">Marron</option>
+					<option value="Blanco">Blanco</option>
+					<option value="Negro">Negro</option>
+					<option value="Azul claro">Azul claro</option>
+					<option value="Beige">Beige</option>
+					<option value="Dorado">Dorado</option>
+					<option value="Plateado">Plateado</option>
+					<option value="Rosado">Rosado</option>
+					<option value="Magenta">Magenta</option>
+					<option value="Indigo">Indigo</option>
+					<option value="Agua marina">Agua marina</option>
+				</select>
+			</div>
+			<div>
+				<hr>
+			</div>
+			
+			<div class="colorsBoxes" id="colors_container">
+				<div class="colorsBox" id="colorBox1"></div>
+				<div class="colorsBox" id="colorBox2"></div>
+				<div class="colorsBox" id="colorBox3"></div>
+				<div class="colorsBox" id="colorBox4"></div>
+				<div class="colorsBox" id="colorBox5"></div>
+			</div>
+			
+			<div class="colorName">
+				<p id="color_name">NOMBRE DEL COLOR</p>
+			</div>
 		</div>
 		<div>
 			<hr>
 		</div>
-		
-		<div class="colorsBoxes" id="colors_container">
-			<div class="colorsBox" id="colorBox1"></div>
-			<div class="colorsBox" id="colorBox2"></div>
-			<div class="colorsBox" id="colorBox3"></div>
-			<div class="colorsBox" id="colorBox4"></div>
-			<div class="colorsBox" id="colorBox5"></div>
-		</div>
-		
-		<div class="colorName">
-			<p id="color_name">NAME OF THE COLOR</p>
-		</div>
-		
 		<footer>
 			<div class="container">
 				<div class="top_container">
 				</div>
 				<div class="footer_container">
 					<div id="footer_container_break_line">
-						<img src="src/logo.png" alt="Logo picture">
 					</div>
 					<div id="footer_container_info">
 						<p d = "copyright">Designed by SJMM 2017. All rigths reserved.</p>

@@ -199,5 +199,14 @@ function getColor(){
 			name.innerHTML = "AQUAMARINE";	
 			break;
 			
+		default:
+			colorBox1.style.backgroundColor = "WHITE";
+			colorBox2.style.backgroundColor = "WHITE";
+			colorBox3.style.backgroundColor = "WHITE";
+			colorBox4.style.backgroundColor = "WHITE";
+			colorBox5.style.backgroundColor = "WHITE";
+			name.innerHTML = "COLORES";
+		break;
+			
 	};
 };
