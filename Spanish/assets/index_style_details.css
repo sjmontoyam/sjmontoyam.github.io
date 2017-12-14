@@ -6,6 +6,10 @@ a:link {
     text-decoration: none;
 }
 
+body{
+	height: 100%;
+}
+
 .content_left{
 	clear: both;
 	float: left;
@@ -15,12 +19,12 @@ a:link {
 }
 
 .content_left:visited{
-	color: white;
+	color: indigo;
 }
 
 .content_left:hover{
+	color: white;
 	background-color:#f0d0c1;
-	color: black;
 }
 
 .content_right{
@@ -32,55 +36,43 @@ a:link {
 }
 
 .content_right:visited{
-	color: white;
+	color: indigo;
 }
 
 .content_right:hover{
 	text-decoration: underline;
 }
 
-#content_right_last{
-
-}
-
-
-.container{
-	border-radius: 25px 25px 0px 0px;
-	background-color: #c96031;
-}
-
 #copyright{
 	color: white;
 }
 
-#div_header_container{
+#counter{
 	width: 100%;
-	border-radius: 0px 0px 25px 25px;
-	margin-top:-10px;
-	border: 1px solid black;
-	display: inline-block;
-
-	background-color:#c96031;
 }
 
-footer {
-    bottom: 0;
-    width: 100%;
-	clear: both;
+#counter_img{
+	margin-left: 30%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 10em;
+}
 
-	/*background-color: blue;*/
-
-	/*background: #4c4c4c; /* Old browsers */
-	/*background: -moz-linear-gradient(top, #4c4c4c 0%, #595959 12%, #666666 25%, #474747 34%, #2c2c2c 43%, #000000 54%, #111111 70%, #2b2b2b 85%, #1c1c1c 94%, #131313 100%); /* FF3.6-15 */
-	/*background: -webkit-linear-gradient(top, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 34%,#2c2c2c 43%,#000000 54%,#111111 70%,#2b2b2b 85%,#1c1c1c 94%,#131313 100%); /* Chrome10-25,Safari5.1-6 */
-	/*background: linear-gradient(to bottom, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 34%,#2c2c2c 43%,#000000 54%,#111111 70%,#2b2b2b 85%,#1c1c1c 94%,#131313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+.footer {
+	float: left;
+	margin-top: 2%;
+	margin-bottom: -1000px;
+	background-color: #c96031;
+	border-radius: 25px 25px 0px 0px;
+	height: 100px;
+	max-height: 100px;
+	width: 100%;
 }
 
 #footer_container_break_line{
+	float: left;
 	margin-left:20px;
 	margin-top:20px;
-	float: left;
 }
 
 #footer_container_info{
@@ -88,10 +80,19 @@ footer {
 	height: 100%;
 }
 
-#header_name{
-	width: 60%;
-	float: left;
+#header{
+	background-color:#c96031;
+	border: 1px solid black;
+	border-radius: 0px 0px 25px 25px;
+	display: inline-block;
+	margin-top:-10px;
+	max-height: 250px;
+	width: 100%;
+}
 
+#header_name{
+	float: left;
+	width: 60%;
 }
 
 #header_menu{
@@ -107,44 +108,59 @@ footer {
 }
 
 .menu_header_a:link{
-	text-decoration: none;
-	text-align: center;
-	display: inline-block;
-	padding: 10px 20px;
-	margin: 5px 5px 5px 5px;
+	background-color: #c96031;
 	border: 2px solid white;
-	font-family: 'Lato', sans-serif;
 	border-radius: 10px 10px 10px 10px;
 	color:white;
-	background-color: #c96031;
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+	padding: 10px 20px;
+	margin: 5px 5px 5px 5px;
+	text-decoration: none;
+	text-align: center;
+}
+
+#lateral{
+	float: left;
+	width: 30%;
 }
 
 .panels{
-	width: 20%;
-	height: 1000px;
-	float: left;
+	background-color: #caa668;
 	border-radius: 25px;
 	font-family: 'Lato', sans-serif;
-	background-color: #caa668;
+	width: 100%;
 }
 
 #panel_container{
-	width: 100%;
 	float: left;
-	/*background-color:blue;*/
+	width: 70%;
+	margin-left:15%;
+	display: inline;
 
 }
 
-#panel_middle{
-	width: 58%;
-	float: left;
-	height: 1000px;
-	border-radius: 25px;
-	background-color: #f2cc9b;
-	margin-left:1%;
-	margin-right:1%;
-	color: #000000;
+#panel_left{
+	margin-top: 0;
+	height: 300px;
+}
 
+#panel_right_up{
+	margin-top: 2%px;
+	height: 200px;
+}
+#panel_right_down{
+	margin-top: 2%px;
+}
+
+#panel_middle{
+	float: left;
+	background-color: #f2cc9b;
+	border-radius: 25px;
+	color: #000000;
+	height: 1350px;
+	margin-left:2%;
+	width: 68%;
 }
 
 #panel_middle_article{
@@ -163,30 +179,30 @@ footer {
 
 #panel_middle_title{
 	font-family: 'Nova Mono', monospace;
-	text-align: center;
 	font-size: 4em;
+	text-align: center;
 }
 
 
 #title_header{
+	color: white;
+	font-family: 'Nova Mono', monospace;
+	font-size: 300%;
+	font-weight: bold;
 	margin-top:10px;
 	margin-left:40px;
-	font-size: 3.5em;
-	font-weight: bold;
-	font-family: 'Nova Mono', monospace;
-	color: white;
-
 }
 
 .title_text{
-	background-color: #FFFFFF;
-	text-align: center;
+
+	background-color: #c96031;
+	border-radius: 25px 25px 0px 0px;
 	font-family:'Nova Mono', monospace;
-	
+	text-align: center;	
 }
 
 iframe{
+	height:315px;
 	margin-left: 5%;
 	width:90%;
-	height:315px;
 }
