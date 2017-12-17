@@ -132,23 +132,6 @@ img {
     color:#fff;
 }
 
-#header-h1{
-	color: white;
-	font-family: 'Nova Mono', monospace;
-	font-size: 300%;
-	font-weight: bold;
-	margin-top:10px;
-	margin-left:40px;
-
-}
-
-#header-links{
-
-	float:right;
-	width: 40%;
-
-}
-
 .links-header:hover, .links-header:active{
 	background-color: white;
 	color: #c96031;    
