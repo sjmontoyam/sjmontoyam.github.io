@@ -24,6 +24,7 @@ i {
     color: #aece61  ;
     position: relative;
     padding-bottom: 16px;
+    margin-left: 35px;
 }
 .footer h5:after {
     content: '';
