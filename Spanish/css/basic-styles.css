@@ -158,3 +158,8 @@ table{
 	text-align: center;
 }
 
+hr{
+    border-radius: 25px;
+    border: 2px solid #092746;
+    border-width: 2px;
+}
