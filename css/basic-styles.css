@@ -9,7 +9,6 @@ i {
 .footer {
     position: relative;
     background-color: #092746;
-    color: #7d7975;
     padding: 25px 0 0px;
     font-size:16px;
 }
@@ -25,6 +24,7 @@ i {
     position: relative;
     padding-bottom: 16px;
     margin-left: 35px;
+    text-align: center;
 }
 .footer h5:after {
     content: '';
@@ -33,6 +33,7 @@ i {
     width: 40%;
     height: 1px;
     background-color: #1e1d22 ;
+    text-align: center;
 }
 
 .footer ul {
@@ -61,7 +62,7 @@ i {
     padding-top: 10px;
     padding-bottom: 25px;
     border-top: 1px solid #2f2f33 ;
-    background: #1e1d22  ;
+    background: #1e1d22;
     
 }
 
@@ -134,22 +135,21 @@ img {
 }
 
 .links-header:hover, .links-header:active{
-	background-color: white;
+
 	color: #c96031;    
 }
 
 
-.links-header:link{
-	background-color: #c96031;
-	border: 2px solid white;
-	border-radius: 10px 10px 10px 10px;
-	color:white;
-	display: inline-block;
-	font-family: 'Lato', sans-serif;
-	padding: 10px 20px;
-	margin: 5px 5px 5px 5px;
-	text-decoration: none;
-	text-align: center;
+.links-header{
+	border: 1px solid white; 
+    border-radius: 25px; 
+    text-align: center;
+    margin: 5px;
+    padding: -5px;
+}
+
+.m-head:link,.m-head:visited{
+    color: white;
 }
 
 table{
