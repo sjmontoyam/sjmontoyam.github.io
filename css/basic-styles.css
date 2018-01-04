@@ -118,7 +118,7 @@ i {
 .header{
 	background-color:#092746;
 	color: white;
-	padding: 20px 0 20px;
+	padding: 20px 0 10px;
 
 }
 
@@ -128,24 +128,15 @@ img {
 }
 
 .header ul{
-	list-style: none;
-    line-height:35px;
-    margin: 0px;
-    color:#fff;
+    line-height: 30px;
 }
-
-.links-header:hover, .links-header:active{
-
-	color: #c96031;    
-}
-
 
 .links-header{
 	border: 1px solid white; 
     border-radius: 25px; 
     text-align: center;
-    margin: 5px;
-    padding: -5px;
+    display: inline-block;
+    margin: 2px;
 }
 
 .m-head:link,.m-head:visited{
@@ -155,7 +146,6 @@ img {
 table{
 	background-color: #e0ebeb;
 	margin-top: 20px;
-	text-align: center;
 }
 
 hr{
