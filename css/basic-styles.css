@@ -154,10 +154,6 @@ img {
  }
 
 
-@media (min-width: 576px) {
-
-}
-
 @media (min-width: 768px) {
 
      .links-header{
@@ -212,4 +208,83 @@ hr{
     border-radius: 25px;
     border: 2px solid #092746;
     border-width: 2px;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.questions{
+ 
+    border: 1px solid #a1a1a1;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.question{
+ 
+    margin: 20px 0px;
+}
+
+.wrap h1{
+    margin-bottom: 20px;
+}
+
+
+.seccion-A{
+    margin-bottom: 20px;
+}
+
+.seccion-B{
+    margin-bottom: 20px;
+}
+
+article{
+    line-height: 30px;
+}
+
+.score{
+    font-size:20px;
+    font-weight:1000;
+    margin-left: 20px;
+
+}
+
+.button-score{
+    float: left;
+    margin-right: 20px;
+
+}
+
+.score-section{
+    margin-left: 20px;
+    position: relative;
+}
+
+.guessA{
+    width: 100px;
+    height: 100px;
+    background-color: #99ff33;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 100px;
+    font-weight: bold;
+}
+
+
+
+.guessB{
+    width: 100px;
+    height: 100px;
+    background-color: #ff3300;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 100px;
+    font-weight: bold;
+}
+
+.questions h2, .questions p{
+    margin-left: 20px;
 }
