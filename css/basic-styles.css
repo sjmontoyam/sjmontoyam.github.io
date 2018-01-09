@@ -262,29 +262,47 @@ article{
 }
 
 .guessA{
-    width: 100px;
-    height: 100px;
-    background-color: #99ff33;
-    margin: 20px;
+    width: 80px;
+    height: 80px;
+    background-color: #c1ff84;
+    margin: 10px;
     display: inline-block;
     vertical-align: middle;
-    line-height: 100px;
+    line-height: 80px;
     font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid #99ff33;
+    font-size: 12px;
+}
+
+.guessA:hover{
+    background-color: #99ff33;
 }
 
 
-
 .guessB{
-    width: 100px;
-    height: 100px;
-    background-color: #ff3300;
-    margin: 20px;
+    width: 80px;
+    height: 80px;
+    background-color: #ff997f;
+    margin: 10px;
+    margin-bottom: 30px;
     display: inline-block;
     vertical-align: middle;
-    line-height: 100px;
+    line-height: 80px;
     font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid #ff3300;
+    font-size: 12px;
+}
+
+.guessB:hover{
+    background-color: #ff3300;
 }
 
 .questions h2, .questions p{
     margin-left: 20px;
+}
+
+.special-size{
+    font-size: 12px;
 }

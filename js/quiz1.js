@@ -109,7 +109,7 @@ var selectionB;
 function sectionB1(param1){
 	selected=document.getElementById(param1);
 	selected.disabled=true;
-	selected.style.backgroundColor="#bfbfbf";
+	selected.style.visibility="hidden";
 	selectionA=param1;
 }
 
@@ -117,8 +117,8 @@ function sectionB2(param1){
 	var textObtain="";
 	selected=document.getElementById(param1);
 	selected.disabled=true;
-	selected.style.backgroundColor="#bfbfbf";
 	selectionB=selected.innerText;
+	selected.style.visibility="hidden"
 	Given[selectionA] = selectionB;
 }
 
