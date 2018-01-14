@@ -196,7 +196,7 @@ function getColor(){
 			colorBox3.style.backgroundColor = "#66ffcc";
 			colorBox4.style.backgroundColor = "#33ffbb";
 			colorBox5.style.backgroundColor = "#00ffaa";
-			name.innerHTML = "AQUAMARINE";	
+			name.innerHTML = "AGUA MARINA";	
 			break;
 			
 		default:

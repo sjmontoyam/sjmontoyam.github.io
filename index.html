@@ -6,67 +6,88 @@
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="css/basic-styles.css">
 		<link rel="stylesheet" type="text/css" href="css/index_style_details.css">
-		<link rel = "stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel = "stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+		<link rel = "stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.css">
 		<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lato" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Nova+Mono" rel="stylesheet">
-		<link rel="icon" type="image/x-icon" href="src/title_ico.ico">
-		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">		
-		<meta charset="UTF-8">
+		<link rel="icon" type="image/x-icon" href="src/title_ico.ico">	
 		<meta name="description" content="Learn Spanish">
-		<meta name="keywords" content="Spanish, Español, Aprender, Ruso, españo, spanish, aprender, colores, ropa, prendas, ser, estar, Animales, animals">
-		<meta name="author" content="Santiago Jose Montoya Mejia">
-		<meta name = "viewport" content="width=device-width, user-scalabel=no, initial-scale=1.0, minimum-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<script src="assets/color_picker.js"></script>	
 	</head>
 	
 	<body>
-		<div class = "navbar center-picture" style="background-color: #092746;">
-			<div class = "header-picture">
-				<a class="brand" href="#">
-			    	<img src="src/main/logo.png" alt="Spanish with ALINA" style="width:60%;">
-			 	</a>
-			</div>
-			<div class="links-header">
-				<a class="m-head" href="index.html">HOME</a>
-				<a class="m-head" href="#">LINKS</a>
-				<a class="m-head" href="#contact">CONTACT</a>
+		<div class = "navbar backg">
+			<div class="space-top-1 space-bottom-1">
+				<div class = "col-md-offset-1 col-md-2">
+					<a class = "" href="#">
+				    	<img class="img-head" src="src/main/logo-1.png" alt="Spanish with ALINA">
+				 	</a>
+				</div>
+				<div class="col-md-offset-6 col-md-3">
+					<a class="m-head btn btn-info" href="index.html">HOME</a>
+					<a class="m-head btn btn-info" href="#">LINKS</a>
+					<a class="m-head btn btn-info" href="#contact">CONTACT</a>
+				</div>
 			</div>
 		</div>
 
 		<div class = "cuerpo container">
 			<div class="row">
+
+
+
 				<div class="container col-md-4">
-					<div class = "panel">
-						<h1>CONTENT</h1>
-						<div>
-							<ul>
-								<li><a href="colores.html">Colores<a></li>
-								<li><a href="fruits.html">Frutas<a></li>
-								<li><a href="ropa.html">Ropa<a></li>
-								<li><a href="animals.html">Animales<a></li>
-							</ul>
-						</div>
+
+					<div class = "list-group panel">
+
+						<h1 class = "list-group-item active">VOCABULARY</h1>
+						<a class = "list-group-item" href="colores.html">
+							<span class = "glyphicon glyphicon-adjust"></span> Colores<span class = "badge">19</span>
+						<a>
+						<a class = "list-group-item" href="fruits.html">
+							<span class = "glyphicon glyphicon-apple"></span> Frutas<span class = "badge">28</span>
+						<a>
+						<a class = "list-group-item" href="ropa.html">
+							<span class = "glyphicon glyphicon-sunglasses"></span> Ropa<span class = "badge">30</span>
+						<a>
+						<a class = "list-group-item" href="animals.html">
+							<span class = "glyphicon glyphicon-knight"></span> Animales<span class = "badge">48</span>
+						<a>
+
 					</div>
 					
-					<div class = "panel">
-						<h1>RESOURCES</h1>
-						<div>
-							<ul>
-								<li><a href="doc/Articulos1.pdf" target="_blank">Articulos 1.pdf</a></li>
-								<li><a href="doc/Articulos2.pdf" target="_blank">Articulos 2.pdf</a></li>
-								<li><a href="doc/SerEstarP1.pdf" target="_blank">Ser/Estar parte 1.pdf</a></li>
-								<li><a href="doc/SerEstarP2.pdf" target="_blank">Ser/Estar parte 2.pdf</a></li>
-							</ul>
-						</div>
+					<div class = "list-group panel">
+						<h1 class = "list-group-item active">RESOURCES</h1>
+						<a class = "list-group-item" href="doc/Articulos1.pdf" target="_blank">
+							<span class = "glyphicon glyphicon-file"></span> Articulos 1
+						</a>
+						<a class = "list-group-item" href="doc/Articulos2.pdf" target="_blank">
+							<span class = "glyphicon glyphicon-file"></span> Articulos 2
+						</a>
+						<a class = "list-group-item" href="doc/SerEstarP1.pdf" target="_blank">
+							<span class = "glyphicon glyphicon-file"></span> Ser/Estar parte 1
+						</a>
+						<a class = "list-group-item" href="doc/SerEstarP2.pdf" target="_blank">
+							<span class = "glyphicon glyphicon-file"></span> Ser/Estar parte 2
+						</a>
 					</div>
 					
-					<div class = "panel">
-						<h1>OTHER</h1>
+					<div class = "list-group panel">
+
+						<h1 class = "list-group-item active">OTHER</h1>
+						<a class = "list-group-item" href="quiz1.html">
+							<span class = "glyphicon glyphicon-edit"></span> Quiz 1<span class = "badge">15</span>
+						</a>
+						<a class = "list-group-item" href="quiz1.html">
+							<span class = "glyphicon glyphicon-edit"></span> Quiz 2<span class = "badge">21</span>
+						</a>
+						<a class = "list-group-item" href="quiz1.html">
+							<span class = "glyphicon glyphicon-edit"></span> Quiz 3<span class = "badge">20</span>
+						</a>
+
 						<hr>
-						<ul>
-							<li><a href="quiz1.html">Quiz 1</a></li>
-						</ul>
-						<hr>
+
 						<iframe src="https://www.youtube.com/embed/VxsN-fZBsZU" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 						<hr>
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/VldG2oAol0M" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
@@ -83,7 +104,7 @@
 					<div class = "panel-four">
 						<section>
 							<article><h1>¿Por qué el Español? </h1><br><br>
-								El español es el tercer idioma más hablado en el mundo, por detrás del inglés y el chino mandarín. Es hablado en España, en las Islas Caribeñas (Cuba y Puerto Rico), en la República Dominicana, en Norte América (México), en Centroamérica (Guatemala, Belice, El Salvador, Honduras, Nicaragua, Costa Rica y Panamá) y en Sudamérica (Colombia, Venezuela, Uruguay, Paraguay, Argentina, Chile, Bolivia, Peru y Ecuador). El español es también, la segunda lengua más hablada en Estados Unidos. <br><br>
+								</span> El español es el tercer idioma más hablado en el mundo, por detrás del inglés y el chino mandarín. Es hablado en España, en las Islas Caribeñas (Cuba y Puerto Rico), en la República Dominicana, en Norte América (México), en Centroamérica (Guatemala, Belice, El Salvador, Honduras, Nicaragua, Costa Rica y Panamá) y en Sudamérica (Colombia, Venezuela, Uruguay, Paraguay, Argentina, Chile, Bolivia, Peru y Ecuador). El español es también, la segunda lengua más hablada en Estados Unidos. <br><br>
 								Estudiar español te ayudará a disfrutar de la obra de maestros de la literatura, el cine, y la cultura. Las obras de Garcilaso, Quevedo, Bécquer, Cervantes, García Márquez, Allende o Neruda, como también de Almodóvar, Saura o Médem sólo se pueden apreciar en su idioma original en toda su extensión. Y además, cada vez la industria cinematográfica y televisiva es más importante, con actores como Benicio del Toro o Antonio Bandera, o directores como Alejandro González Iñarritu, Alfonso Cuarón o Pedro Almodóvar, cantantes como Ricky Martín, Pablo Alborán o Jennifer López y muchos más. Un idioma cada vez más global e influyente en las artes y la cultura.<br>
 								<hr>
 								Spanish is the third most spoken language in the world, behind English and Mandarin Chinese. It is spoken in Spain, in the Caribbean Islands (Cuba and Puerto Rico), in the Dominican Republic, in North America (Mexico), in Central America (Guatemala, Belize, El Salvador, Honduras, Nicaragua, Costa Rica and Panama) and in South America (Colombia, Venezuela, Uruguay, Paraguay, Argentina, Chile, Bolivia, Peru and Ecuador). Spanish is also the second most spoken language in the United States. <br> <br>
@@ -94,85 +115,28 @@
 				</div>
 			</div>
 		</div>
-		<section>
-			<div class="footer-section">
-			    <div class="footer">
-					<div class="container-fluid row">
 
-							<div class="col-lg-1"></div>	
-
-						    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 footer-one">
-						         <div class="">
-						        	<img src="src/main/logo.png" alt="Spanish with ALINA" style="width: 50%;">
-						        </div> 
-						       
-						        <p>Providing Life Changing Experiences Through Education.</p>
-
-				            	<div class="social-icons" style="text-align: center;"> 
-					                <a href="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
-					                <a href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
-						            <a href="https://plus.google.com/"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
-						            <a href="mailto:sjmontoyam@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
-					            </div>
-						    </div>
-
-						    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-2 footer-two">
-						    	<div class="container">
-							       <h5>Quick Links</h5>
-							          <ul style="text-align: center;">
-					                    <li><a href="#">About Me</a> </li>
-					                    <li><a href="#">Our Services</a> </li>
-					                    <li><a href="#">Contact Us</a> </li>
-					                  </ul>
-				                </div>
-						    </div>
-
-						    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-2 footer-three">
-						    	<div class="container">
-							       <h5>Services</h5>
-						           <ul style="text-align: center;">
-				                        <li><a href="#">About Us</a> </li>
-				                        <li><a href="#">Our Services</a> </li>
-				                        <li><a href="#">Contact Us</a> </li>
-				                   </ul>
-				                </div>
-						    </div>
-
-						    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 footer-four" id="contact">
-						    	<div class="container">
-							       <h5>Contact Us</h5>
-							        <ul style="text-align: center;">
-					                    <li><i class="fa fa-map-marker"></i>Envigado, Antioquia, Colombia.</li>
-					                    <li><i class="fa fa-envelope-o"></i>sjmontoyam@gmail.com </li>
-					                    <li><i class="fa fa-phone"></i>+57 314 863 0983</li>
-					                </ul>
-					            </div>	
-						    </div>
-						 
-						<div class="clearfix"></div>
-					</div>
-				</div>
-			</div>
+		<div class = "space-top-3">
 			<div class="footer-bottom">
 		        <div class="container">
 					<div class="row">
-						<div class="col-sm-6 ">
+						<div class="col-sm-6">
 							<div class="copyright-text">
-								<p>CopyRight © 2017 Digital All Rights Reserved</p>
+								<p>CopyRight © 2018 SJMM All Rights Reserved</p>
 							</div>
 						</div>
-						<div class="col-sm-6  ">
+						<div class="col-sm-6">
 						    <div class="copyright-text pull-right">
-								<p> <a href="#">Home</a> | <a href="#">Privacy</a> |<a href="#">Terms & Conditions</a> | <a href="#">Refund Policy</a> </p>
+								<p> <a href="#">Home</a> | <a href="#">Privacy</a> |<a href="#">Terms & Conditions</a> | <a href="#">Refund Policy</a></p>
 							</div>																	
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>	
-		<script src="http://code.jquery.com/jquery-latest.js"></script>
-		<script src="js/jquery.js"></script>
-		<script src="js/boostrap.min.js"></script>
-	</body>
+		</div>
+
+		<script src="js/jquery-3.2.1.js"></script>
+		<script src="bootstrap/js/bootstrap.js"></script>
+		<script src="js/quiz1.js"></script>	
 
 </html>

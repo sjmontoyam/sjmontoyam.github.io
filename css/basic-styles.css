@@ -1,3 +1,8 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
 i {
     font-size : 12px;
     padding-right: 10px;
@@ -5,115 +10,8 @@ i {
 }
 
 
-/* Footer */
-.footer {
-    position: relative;
-    background-color: #092746;
-    padding: 25px 0 20px;
-    font-size:16px;
-}
-.footer p {
-    line-height:26px;
-    color : #fff;
-    text-align: center;;
-}
-.footer h5 {
-    font-size: 22px;
-    font-weight: 700;
-    color: #aece61  ;
-    position: relative;
-    padding-bottom: 16px;
-    margin-left: 35px;
-    text-align: center;
-}
-.footer h5:after {
-    content: '';
-    display: block;
-    margin: 5px 0 0;
-    width: 40%;
-    height: 1px;
-    background-color: #1e1d22 ;
-    text-align: center;
-}
 
-.footer ul {
-    list-style: none;
-    line-height:35px;
-    margin: 0px;
-    color:#fff;
-    
-}
-.footer a {
-    color:# ;
-   
-}
-.footer a:hover {
-    color: #aece61 ;
-}
-
-/* Footer Logo */
-.foot-logo {
-    margin: 0px 0px 18px 0px;
-    padding: 0;
-}
-
-/*footer bottom */
-.footer-bottom {
-    padding-top: 10px;
-    padding-bottom: 25px;
-    border-top: 1px solid #2f2f33 ;
-    background: #1e1d22;
-    
-}
-
-.copyright-text p {
-    color: #7d7975;
-    margin-top: 18px;
-    margin-bottom: 0;
-    font-size:15px;
-}
-
-.copyright-text a {
-    color: #7d7975;
-    margin: 0px 10px 0px 10px;
-    
-}
-.copyright-text a:hover {
-    color: #aece61  ;
-    
-    
-}
-/* Social Icons */
-
-.social-icons{
-    
-    margin: 0;
-    padding: 0;
-    font-size : 10px;
-}
-
-.social {
-    margin:7px 7px 7px 0px;
-    color:#fff;
-}
-
-
-#social-fb:hover {
-     color: #3B5998;
-     transition:all .25s;
- }
- #social-tw:hover {
-     color: #4099FF;
-     transition:all .25s;
- }
- #social-gp:hover {
-     color: #d34836;
-     transition:all .25s;
- }
- #social-em:hover {
-     color: #f39c12;
-     transition:all .25s;
- }
+/* -------------------- header -------------------------*/
 
 .header{
 	background-color:#092746;
@@ -127,6 +25,14 @@ i {
 img {
     display: block;
     margin: auto;
+}
+
+.img-foot{
+    width: 70%;
+}
+
+.img-head{
+    max-width: 200px;
 }
 
 .m-head:link,.m-head:visited{
@@ -147,8 +53,8 @@ img {
 .m-head{
     padding: 10px;
     margin: 5px;
-    border: 1px solid white;
-    border-radius: 10px;
+    border: 1px solid #092746;
+    border-radius: 5px;
     font-weight:300;
  }
 
@@ -192,9 +98,10 @@ hr{
     text-align: center;
 }
 
+/* ------------------- Quiz 1 ---------------------- */
 .questions{
  
-    border: 1px solid #a1a1a1;
+    border: 1px solid #d1e0e0;
     padding: 10px;
     border-radius: 25px;
 }
@@ -244,8 +151,8 @@ article{
     height: 80px;
     background-color: #c1ff84;
     margin: 10px;
-    display: inline-block;
     vertical-align: middle;
+    display: inline-block;
     line-height: 80px;
     font-weight: bold;
     border-radius: 10px;
@@ -264,8 +171,8 @@ article{
     background-color: #ff997f;
     margin: 10px;
     margin-bottom: 30px;
-    display: inline-block;
     vertical-align: middle;
+    display: inline-block;
     line-height: 80px;
     font-weight: bold;
     border-radius: 10px;
@@ -283,4 +190,60 @@ article{
 
 .special-size{
     font-size: 12px;
+}
+
+/* ------------- important -----------------*/
+
+.backg{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#337ab7+0,2a6799+99 */
+    background: rgb(51,122,183); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(51,122,183,1) 0%, rgba(42,103,153,1) 99%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(51,122,183,1) 0%,rgba(42,103,153,1) 99%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(51,122,183,1) 0%,rgba(42,103,153,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#337ab7', endColorstr='#2a6799',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+/* footer */
+
+.space-top-1{
+    padding-top: 10px;
+}
+
+.space-top-2{
+    padding-top: 20px;
+}
+
+.space-top-3{
+    padding-top: 30px;
+}
+
+.space-bottom-1{
+    padding-bottom: 50px;
+}
+
+.space-bottom-2{
+    padding-bottom: 70px;
+}
+
+.footer ul{
+    list-style: none;
+    text-align: left;
+}
+
+.footer-bottom{
+    padding: 15px;
+    background: #1e1d22;
+    color: #7d7975;
+}
+
+.footer h3{
+    color: white;
+}
+
+.footer a, .footer li{
+    color: white;
+    letter-spacing: 1px;
+    padding-top: 10px;
 }

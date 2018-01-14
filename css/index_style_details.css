@@ -26,12 +26,9 @@ iframe{
 }
 
 .panel h1{
-	background-color: #092746;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ceac14+0,ad6308+100 */
 	font-family: 'Nova Mono', monospace;
 	color: white;
-	border-radius: 25px 25px 25px 25px;
-	padding-left: 25px;
-	margin-top: 10px;
 }
 
 article{
