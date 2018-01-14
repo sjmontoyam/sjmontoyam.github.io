@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Colors</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/basic-styles.css">
+		<link rel="stylesheet" type="text/css" href="css/index_style_details.css">
+		<link rel="stylesheet" type="text/css" href="css/colors_style_details.css">
+		<link rel = "stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+		<link rel = "stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.css">
+		<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lato" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Nova+Mono" rel="stylesheet">
+		<link rel="icon" type="image/x-icon" href="src/title_ico.ico">
+		<meta name="description" content="Learn Spanish">
+		<meta name="keywords" content="Spanish, Español, Aprender, Ruso, españo, spanish, aprender, colores, ropa, prendas, ser, estar, Animales, animals">
+		<meta name="author" content="Santiago Jose Montoya Mejia">
+		<meta name = "viewport" content="width=device-width, user-scalabel=no, initial-scale=1.0, minimum-scale=1.0">
+		<script src="js/color_picker.js"></script>		
+	</head>
+
+	<body>
+		<div class = "navbar backg">
+			<div class="space-top-1 space-bottom-1">
+				<div class = "col-md-offset-1 col-md-2">
+					<a class = "" href="#">
+				    	<img class="img-head" src="src/main/logo-1.png" alt="Spanish with ALINA">
+				 	</a>
+				</div>
+				<div class="col-md-offset-6 col-md-3">
+					<a class="m-head btn btn-info" href="index.html">HOME</a>
+					<a class="m-head btn btn-info" href="#">LINKS</a>
+					<a class="m-head btn btn-info" href="#contact">CONTACT</a>
+				</div>
+			</div>
+		</div>
+		<div>
+			<hr>
+		</div>
+		<div class = "container space-top-3">
+			<div class="form-group">
+				<div id="color_picker">
+					<select class="form-control" id="Picker" onchange="getColor()">
+						<option value="Default">Escoge un color</option> 
+						<option value="Amarillo">Amarillo</option> 
+						<option value="Naranja">Naranja</option>
+						<option value="Rojo">Rojo</option>
+						<option value="Morado">Morado</option>
+						<option value="Azul">Azul</option>
+						<option value="Verde">Verde</option>
+						<option value="Gris claro">Gris claro</option>
+						<option value="Gris oscuro">Gris oscuro</option>
+						<option value="Marron">Marron</option>
+						<option value="Blanco">Blanco</option>
+						<option value="Negro">Negro</option>
+						<option value="Azul claro">Azul claro</option>
+						<option value="Beige">Beige</option>
+						<option value="Dorado">Dorado</option>
+						<option value="Plateado">Plateado</option>
+						<option value="Rosado">Rosado</option>
+						<option value="Magenta">Magenta</option>
+						<option value="Indigo">Indigo</option>
+						<option value="Agua marina">Agua marina</option>
+					</select>
+				</div>	
+			</div>
+			<div>
+				<hr>
+			</div>
+			
+			<div class="colorsBoxes" id="colors_container">
+				<div class="colorsBox" id="colorBox1"></div>
+				<div class="colorsBox" id="colorBox2"></div>
+				<div class="colorsBox" id="colorBox3"></div>
+				<div class="colorsBox" id="colorBox4"></div>
+				<div class="colorsBox" id="colorBox5"></div>
+			</div>
+			
+			<div class="colorName space-bottom-2">
+				<p id="color_name">NOMBRE DEL COLOR</p>
+			</div>
+		</div>
+
+		<div class = "space-top-3">
+			<div class="footer-bottom">
+		        <div class="container">
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="copyright-text">
+								<p>CopyRight © 2018 SJMM All Rights Reserved</p>
+							</div>
+						</div>
+						<div class="col-sm-6">
+						    <div class="copyright-text pull-right">
+								<p> <a href="#">Home</a> | <a href="#">Privacy</a> |<a href="#">Terms & Conditions</a> | <a href="#">Refund Policy</a></p>
+							</div>																	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/jquery-3.2.1.js"></script>
+		<script src="bootstrap/js/bootstrap.js"></script>
+		<script src="js/quiz1.js"></script>	
+
+	</body>
+	
+</html>
