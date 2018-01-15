@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>Quiz1</title>
+		<title>Quiz 1</title>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="css/basic-styles.css">
 		<link rel="stylesheet" type="text/css" href="css/index_style_details.css">
@@ -78,10 +78,10 @@
 						<a class = "list-group-item" href="quiz1.html">
 							<span class = "glyphicon glyphicon-edit"></span> Quiz 1<span class = "badge">15</span>
 						</a>
-						<a class = "list-group-item" href="quiz1.html">
-							<span class = "glyphicon glyphicon-edit"></span> Quiz 2<span class = "badge">21</span>
+						<a class = "list-group-item" href="quiz2.html">
+							<span class = "glyphicon glyphicon-edit"></span> Quiz 2<span class = "badge">15</span>
 						</a>
-						<a class = "list-group-item" href="quiz1.html">
+						<a class = "list-group-item" href="quiz3.html">
 							<span class = "glyphicon glyphicon-edit"></span> Quiz 3<span class = "badge">20</span>
 						</a>
 					</div>
@@ -92,99 +92,270 @@
 						<h1 class="center-text">Quiz 1</h1>
 						<div class="questions">
 							<h2>Sección A</h2>
-							<p>Complete with the correct word <b>Es</b>, <b>Soy</b>, <b>Son</b>, <b>Somos</b>, <b>Estoy</b>, <b>Eres</b>, <b>Estás</b>, <b>Están</b>.</p>
-							<div class="question">	
-								<p>1. Nosotros <input type="text" name="respuesta1" id="respuesta1"> amigos</p>
-							</div>
-							<div class="question">	
-								<p>2. <input type="text" name="respuesta2" id="respuesta2"> las tres de la tarde</p>
-							</div>
-							<div class="question">	
-								<p>3. Mañana <input type="text" name="respuesta3" id="respuesta3"> lunes</p>
-							</div>
-							<div class="question">	
-								<p>4. Alina y Santiago <input type="text" name="respuesta4" id="respuesta4"> novios</p>
-							</div>
-							<div class="question">	
-								<p>5. Ellos <input type="text" name="respuesta5" id="respuesta5"> en la universidad</p>
-							</div>
-							<div class="question">	
-								<p>6. Este país <input type="text" name="respuesta6" id="respuesta6"> capitalista</p>
-							</div>
-							<div class="question">	
-								<p>7. El tango <input type="text" name="respuesta7" id="respuesta7"> un ritmo argentino</p>
-							</div>
-							<div class="question2">	
-								<p>8. Ellos <input type="text" name="respuesta8" id="respuesta8"> preparando borscht</p>
-							</div>
-							<div class="question">	
-								<p>9. Yo <input type="text" name="respuesta9" id="respuesta9"> aprendiendo español</p>
-							</div>
-							<div class = "score-section">
-								<button type="submit" class="button-score  btn btn-primary" onclick="sectionA()">Calificar</button>
-								<p class="score">Score: <span id="scoreA"></span></p>
-							</div>
-						</div>
-					</div>
+							<p>Select the correct article <b>El</b>, <b>La</b>, <b>Los</b>, <b>Las</b>.</p><br />
+							<form class = "form-horizontal">
 
-					<div class="wrap seccion-B">
-						<div class="questions">
-							<h2>Sección B</h2>
-							<p>In the game below, you must pick the correct pair. In order to get the right score, select first a green box and then the right pair in one of the red boxes.</p>
-							<div class="center-text">
-								<div class="guessA" onclick="sectionB1('optionA1')" id="optionA1">	
-									YO
-								</div>
+									<!-- Pregunta 1 -->
+									<div class = "form-group">
+										<label class = "col-md-offset-2 col-xs-4 col-md-3">Pregunta 1. <span class = "light">Padres: </span></label>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="el">El</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="la">La</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="los">Los</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="las">Las</input></label>
+										</div>
+									</div>
 
-								<div class="guessA" onclick="sectionB1('optionA2')" id="optionA2">	
-									ÉL
-								</div>
+									<!-- Pregunta 2 -->
+									<div class = "form-group">
+										<label class = "col-md-offset-2 col-xs-4 col-md-3">Pregunta 2. <span class = "light">Amigo: </span></label>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="el">El</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="la">La</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="los">Los</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="las">Las</input></label>
+										</div>
+									</div>
 
-								<div class="guessA" onclick="sectionB1('optionA3')" id="optionA3">	
-									TÚ
-								</div>
+									<!-- Pregunta 3 -->
+									<div class = "form-group">
+										<label class = "col-md-offset-2 col-xs-4 col-md-3">Pregunta 3. <span class = "light">Carro: </span></label>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="el">El</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="la">La</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="los">Los</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="las">Las</input></label>
+										</div>
+									</div>
 
-								<div class="guessA" onclick="sectionB1('optionA4')" id="optionA4">	
-									ELLOS
-								</div>
+									<!-- Pregunta 4 -->
+									<div class = "form-group">
+										<label class = "col-md-offset-2 col-xs-4 col-md-3">Pregunta 4. <span class = "light">Gobierno: </span></label>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="el">El</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="la">La</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="los">Los</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="las">Las</input></label>
+										</div>
+									</div>
 
-								<div class="guessA special-size" onclick="sectionB1('optionA5')" id="optionA5">	
-									NOSOTROS
-								</div>
+									<!-- Pregunta 5 -->
+									<div class = "form-group">
+										<label class = "col-md-offset-2 col-xs-4 col-md-3">Pregunta 5. <span class = "light">Música: </span></label>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="el">El</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="la">La</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="los">Los</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="las">Las</input></label>
+										</div>
+									</div>
 
-								<div class="guessA" onclick="sectionB1('optionA6')" id="optionA6">	
-									ELLAS
-								</div>
+									<!-- Pregunta 6 -->
+									<div class = "form-group">
+										<label class = "col-md-offset-2 col-xs-4 col-md-3">Pregunta 6. <span class = "light">Arte: </span></label>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="el">El</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="la">La</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="los">Los</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="las">Las</input></label>
+										</div>
+									</div>
 
-								<div class="guessB" onclick="sectionB2('optionB1')" id="optionB1">	
-									ESTÁN
-								</div>
+									<!-- Pregunta 7 -->
+									<div class = "form-group">
+										<label class = "col-md-offset-2 col-xs-4 col-md-3">Pregunta 7. <span class = "light">Motos: </span></label>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="el">El</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="la">La</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="los">Los</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="las">Las</input></label>
+										</div>
+									</div>
 
-								<div class="guessB" onclick="sectionB2('optionB2')" id="optionB2">	
-									ESTÁ
-								</div>
+									<!-- Pregunta 8 -->
+									<div class = "form-group">
+										<label class = "col-md-offset-2 col-xs-4 col-md-3">Pregunta 8. <span class = "light">Tiempo: </span></label>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="el">El</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="la">La</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="los">Los</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="las">Las</input></label>
+										</div>
+									</div>
 
-								<div class="guessB" onclick="sectionB2('optionB3')" id="optionB3">	
-									ESTÁS
-								</div>
+									<!-- Pregunta 9 -->
+									<div class = "form-group">
+										<label class = "col-md-offset-2 col-xs-4 col-md-3">Pregunta 9. <span class = "light">Mangos: </span></label>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="el">El</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="la">La</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="los">Los</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="las">Las</input></label>
+										</div>
+									</div>
 
-								<div class="guessB" onclick="sectionB2('optionB4')" id="optionB4">	
-									ESTOY
-								</div>
+									<!-- Pregunta 10 -->
+									<div class = "form-group">
+										<label class = "col-md-offset-2 col-xs-4 col-md-3">Pregunta 10. <span class = "light">Verde: </span></label>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="el">El</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="la">La</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="los">Los</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="las">Las</input></label>
+										</div>
+									</div>
 
-								<div class="guessB special-size" onclick="sectionB2('optionB5')" id="optionB5">	
-									ESTAMOS
-								</div>
+									<!-- Pregunta 11 -->
+									<div class = "form-group">
+										<label class = "col-md-offset-2 col-xs-4 col-md-3">Pregunta 11. <span class = "light">Colores: </span></label>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="el">El</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="la">La</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="los">Los</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="las">Las</input></label>
+										</div>
+									</div>
 
-								<div class="guessB" onclick="sectionB2('optionB6')" id="optionB6">	
-									ESTÁN
-								</div>
-							</div>
-							<div class = "score-section">
+									<!-- Pregunta 12 -->
+									<div class = "form-group">
+										<label class = "col-md-offset-2 col-xs-4 col-md-3">Pregunta 12. <span class = "light">Madres: </span></label>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="el">El</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="la">La</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="los">Los</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="las">Las</input></label>
+										</div>
+									</div>
+
+									<!-- Pregunta 13 -->
+									<div class = "form-group">
+										<label class = "col-md-offset-2 col-xs-4 col-md-3">Pregunta 13. <span class = "light">Soldados: </span></label>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="el">El</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="la">La</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="los">Los</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="las">Las</input></label>
+										</div>
+									</div>
+
+									<!-- Pregunta 14 -->
+									<div class = "form-group">
+										<label class = "col-md-offset-2 col-xs-4 col-md-3">Pregunta 14. <span class = "light">Mujeres: </span></label>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="el">El</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="la">La</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="los">Los</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="las">Las</input></label>
+										</div>
+									</div>
+
+									<!-- Pregunta 15 -->
+									<div class = "form-group">
+										<label class = "col-md-offset-2 col-xs-4 col-md-3">Pregunta 15. <span class = "light">Panda: </span></label>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="el">El</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="la">La</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="los">Los</input></label>
+										</div>
+										<div class = "col-xs-2 col-md-1">
+											<label class="radio-inline"><input type="radio" name="question1" value="las">Las</input></label>
+										</div>
+									</div>
+
+								<div class = "score-section">
 								<button class="button-score btn btn-primary" onclick="sectionB();">Calificar</button>
 								<p class="score">Score: <span id="scoreB"></span></p>
 							</div>
-						</div>	
+							</form>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -211,7 +382,7 @@
 
 		<script src="js/jquery-3.2.1.js"></script>
 		<script src="bootstrap/js/bootstrap.js"></script>
-		<script src="js/quiz1.js"></script>	
+		<script src="js/quiz-2.js"></script>	
 
 	</body>
 	
